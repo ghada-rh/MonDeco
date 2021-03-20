@@ -1,0 +1,9 @@
+.banner {
+  object-fit: contain;
+  position: sticky;
+  z-index: -1;
+  top: 70px;
+  left: 0px;
+  width: 1366px;
+  height: 280px;
+}

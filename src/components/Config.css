@@ -1,0 +1,20 @@
+.config__container {
+  width: 100%;
+  background-color: white;
+  padding-bottom: 140px;
+}
+.config {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 139px;
+  padding-left: 154px;
+  width: 1088px;
+  height: 170px;
+  background-color: #4d302b;
+}
+.config__text {
+  display: flex;
+  flex-direction: column;
+  margin-left: 265px;
+}

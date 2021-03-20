@@ -1,0 +1,30 @@
+.nav {
+  position: sticky;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 1092px;
+  top: 69px;
+  left: 139px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #e2e2e2;
+}
+.nav__item {
+  display: inline-block;
+  width: 272px;
+  height: 50px;
+  border-right: 1px solid #e2e2e2;
+}
+.nav__item:last-child {
+  border-right: none;
+}
+.nav__link {
+  color: black;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  padding-top: 14px;
+}
+.nav__item:hover {
+  background: #7daf3f;
+}

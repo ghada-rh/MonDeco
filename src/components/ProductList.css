@@ -1,0 +1,45 @@
+.list__container {
+  width: 100%;
+  background-color: white;
+}
+.list {
+  width: 812px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  grid-gap: 0px;
+  align-items: center;
+  justify-content: center;
+  margin-left: 139px;
+  opacity: 1;
+  z-index: 1;
+}
+.item {
+  width: 260px;
+  height: 340px;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #e2e2e2;
+  margin-bottom: 5px;
+}
+
+.item img {
+  height: 253px;
+  object-fit: contain;
+}
+.item__name {
+  font: normal normal normal 16px/20px PT Sans;
+  letter-spacing: 0px;
+  color: #1f1f1f;
+  opacity: 1;
+  margin-left: 13px;
+}
+.item__price {
+  text-align: left;
+  font: normal normal bold 23px/29px PT Sans;
+  letter-spacing: 0px;
+  color: #b7b7b7;
+  opacity: 1;
+  margin-left: 13px;
+}

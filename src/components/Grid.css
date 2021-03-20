@@ -1,0 +1,15 @@
+.grid__container {
+  width: 100%;
+  background-color: white;
+}
+.grid {
+  width: 1088px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(352px, 1fr));
+  grid-gap: 15.5px;
+  align-items: center;
+  justify-content: center;
+  margin-left: 139px;
+  opacity: 1;
+  z-index: 1;
+}

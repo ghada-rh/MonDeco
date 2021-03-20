@@ -1,0 +1,12 @@
+.footer {
+  height: 307px;
+  width: 100%;
+  padding-top: 53px;
+}
+.footer__container {
+  display: flex;
+  height: auto;
+}
+.footer__box {
+  text-align: left;
+}
